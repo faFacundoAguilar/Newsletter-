@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guía Express de Granada</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+  <style>
+    body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+    /* Suavidad en las transiciones */
+    * {
+      transition: all 0.25s ease;
+    }
+
+    /* Sombra difusa para efecto de profundidad premium */
+    .soft-shadow {
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    }
+
+    /* Efecto de brillo en hover */
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Fondo texturizado suave */
+    body {
+      background: linear-gradient(to bottom right, #fffaf1, #fffefc);
+    }
+  </style>
+
+  
+</head>
+
+<body class="text-gray-800 font-sans antialiased tracking-tight">
+
+  <!-- HEADER -->
+  <header class="text-center py-16 px-6 bg-gradient-to-b from-amber-50 to-white border-b border-yellow-200">
+    <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold text-yellow-700 mb-3">
+      Guía Express de Granada
+    </h1>
+    <p class="text-gray-600 text-lg sm:text-xl max-w-xl mx-auto leading-relaxed">
+      Lo que no te cuenta ninguna guía oficial 🇪🇸
+    </p>
+  </header>
+
+  <!-- INTRO -->
+  <section class="max-w-3xl mx-auto px-6 text-center mt-14 mb-16">
+    <p class="text-gray-700 text-lg sm:text-xl leading-relaxed font-light">
+      Tenés poco tiempo pero querés conocer <strong>Granada</strong> de verdad.  
+      Esta guía te lleva directo a los rincones con alma: historia, vistas únicas y tapas inolvidables.  
+      <span class="text-yellow-700 font-semibold">Hecha por locales, para viajeros auténticos.</span>
+    </p>
+  </section>
+
+  <!-- MAIN -->
+  <main class="max-w-5xl mx-auto grid gap-12 px-6 sm:grid-cols-2">
+
+   <!-- CARD -->
+<div class="card bg-white rounded-3xl soft-shadow p-8 border border-yellow-100 hover:border-yellow-300">
+  <div class="flex items-center gap-4 mb-5">
+    <div class="bg-yellow-100 rounded-full p-4 flex items-center justify-center">
+     
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+           stroke="#b45309" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+           class="w-8 h-8">
+        <path d="M3 21V10l3-2 3 2V6l3-2 3 2v4l3-2 3 2v11H3z"/>
+        <rect x="9" y="13" width="6" height="8" rx="1"/>
+      </svg>
+    </div>
+    <h2 class="text-2xl font-bold text-yellow-700">La Alhambra</h2>
+  </div>
+  <p class="text-gray-700 text-base leading-relaxed mb-5">
+    Historia viva y símbolo eterno de Granada. Recorrela sin prisa: cada arco y cada azulejo tiene algo que contar.  
+    <span class="italic text-gray-600">Tip:</span> reservá con anticipación y llegá temprano para verla bañada por el sol de la mañana.
+  </p>
+  <a href="https://www.google.com/maps/place/Patronato+de+la+Alhambra+y+el+Generalife/@37.1759296,-3.5901327,16z/data=!3m1!4b1!4m6!3m5!1s0xd71fcb73b5b0625:0xa8f546974d9ddf8a!8m2!3d37.1759254!4d-3.5875578!16s%2Fg%2F12377c2s?entry=ttu"
+     target="_blank"
+     class="inline-flex items-center gap-2 text-yellow-700 font-semibold text-sm hover:underline">
+    <i class="ph ph-map-trifold text-lg"></i> Ver en Google Maps
+  </a>
+</div>
+
+
+    <!-- CARD -->
+    <div class="card bg-white rounded-3xl soft-shadow p-8 border border-yellow-100 hover:border-yellow-300">
+      <div class="flex items-center gap-4 mb-5">
+        <div class="bg-yellow-100 rounded-full p-4 flex items-center justify-center">
+          <i class="ph ph-sun-horizon text-yellow-700 text-3xl"></i>
+        </div>
+        <h2 class="text-2xl font-bold text-yellow-700">Mirador de San Nicolás</h2>
+      </div>
+      <p class="text-gray-700 text-base leading-relaxed mb-5">
+        El atardecer más famoso de Granada. Desde aquí, la Alhambra brilla frente a Sierra Nevada.  
+        Gente local, música flamenca al aire libre y una vista que se queda en la memoria.
+      </p>
+      <a href="https://www.google.com/maps/place/C.+Mirador+de+San+Nicol%C3%A1s,+Albaic%C3%ADn,+18010+Granada/@37.1812165,-3.5950416,17z/data=!3m1!4b1!4m6!3m5!1s0xd71fcc7c961238b:0xe0cb79755e1ffe96!8m2!3d37.1812123!4d-3.5924667!16s%2Fg%2F11clyl9g54?entry=ttu&g_ep=EgoyMDI1MTAwNC4wIKXMDSoASAFQAw%3D%3D" target="_blank"
+         class="inline-flex items-center gap-2 text-yellow-700 font-semibold text-sm hover:underline">
+        <i class="ph ph-map-trifold text-lg"></i> Ver en Google Maps
+      </a>
+    </div>
+
+    <!-- CARD -->
+    <div class="card bg-white rounded-3xl soft-shadow p-8 border border-yellow-100 hover:border-yellow-300">
+      <div class="flex items-center gap-4 mb-5">
+        <div class="bg-yellow-100 rounded-full p-4 flex items-center justify-center">
+          <i class="ph ph-wine text-yellow-700 text-3xl"></i>
+        </div>
+        <h2 class="text-2xl font-bold text-yellow-700">Tapas y Bares Clásicos</h2>
+      </div>
+      <p class="text-gray-700 text-base leading-relaxed mb-5">
+        En Granada, las tapas son casi un derecho. Pedí una caña y esperá la magia.  
+        <strong>Bodegas Castañeda</strong> y <strong>Los Diamantes</strong> son paradas obligatorias.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-2">
+        <a href="https://www.google.com/maps/place/Bodegas+Casta%C3%B1eda/@37.1768678,-3.599565,17z/data=!3m1!4b1!4m6!3m5!1s0xd71fcbf17a53a2d:0xc4e34814bc1a8b1e!8m2!3d37.1768636!4d-3.5969901!16s%2Fg%2F1td3myzn?entry=ttu&g_ep=EgoyMDI1MTAwNC4wIKXMDSoASAFQAw%3D%3D" target="_blank"
+           class="inline-flex items-center gap-2 text-yellow-700 font-semibold text-sm hover:underline">
+          <i class="ph ph-map-trifold text-lg"></i> Bodegas Castañeda
+        </a>
+        <a href="https://www.google.com/maps/place/Los+Diamantes+-+Navas/@37.1737466,-3.6009361,17z/data=!4m6!3m5!1s0xd71fcbe8548a67b:0xa26333ae410d88be!8m2!3d37.1737424!4d-3.5983612!16s%2Fg%2F1q5bnxvnl?entry=ttu&g_ep=EgoyMDI1MTAwNC4wIKXMDSoASAFQAw%3D%3D" target="_blank"
+           class="inline-flex items-center gap-2 text-yellow-700 font-semibold text-sm hover:underline">
+          <i class="ph ph-map-trifold text-lg"></i> Los Diamantes
+        </a>
+      </div>
+    </div>
+
+ 
+<!-- CARD -->
+<div class="card bg-white rounded-3xl soft-shadow p-8 border border-yellow-100 hover:border-yellow-300">
+  <div class="flex items-center gap-4 mb-5">
+    <div class="bg-yellow-100 rounded-full p-4 flex items-center justify-center">
+      
+      <i class="ph ph-house-line text-yellow-700 text-3xl"></i>
+    </div>
+    <h2 class="text-2xl font-bold text-yellow-700">Albaicín & Sacromonte</h2>
+  </div>
+  <p class="text-gray-700 text-base leading-relaxed mb-5">
+    Dos barrios con alma gitana y esencia árabe. Calles estrechas, miradores escondidos y cuevas donde suena el flamenco.  
+    Perfecto para perderse sin rumbo.
+  </p>
+  <div class="flex flex-col sm:flex-row gap-2">
+    <a href="https://www.google.com/maps/place/Albaic%C3%ADn,+Granada/@37.1952235,-3.6001217,14z/data=!3m1!4b1!4m6!3m5!1s0xd71e32b62870893:0x8a51bca3caf42a5c!8m2!3d37.1925097!4d-3.5787384!16s%2Fg%2F121kwlcz?entry=ttu"
+       target="_blank"
+       class="inline-flex items-center gap-2 text-yellow-700 font-semibold text-sm hover:underline">
+      <i class="ph ph-map-trifold text-lg"></i> Albaicín
+    </a>
+    <a href="https://www.google.com/maps/place/Sacromonte,+Granada/@37.1830208,-3.5846939,15z/data=!3m1!4b1!4m6!3m5!1s0xd71fcb5c94d1f79:0x7dc502a9f02481a9!8m2!3d37.183011!4d-3.573697!16s%2Fg%2F11c52r5dk_?entry=ttu"
+       target="_blank"
+       class="inline-flex items-center gap-2 text-yellow-700 font-semibold text-sm hover:underline">
+      <i class="ph ph-map-trifold text-lg"></i> Sacromonte
+    </a>
+  </div>
+</div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="text-center mt-20 mb-10 text-gray-500 text-sm">
+    <p>© 2025 <strong>Granada24/7</strong> — Tu rincón local en la red</p>
+    <p>
+      <a href="https://granada247.com" class="text-yellow-700 hover:underline font-medium">granada247.com</a>
+    </p>
+  </footer>
+
+</body>
+</html>
